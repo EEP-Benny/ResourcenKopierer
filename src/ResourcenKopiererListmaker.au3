@@ -1,3 +1,5 @@
+#AutoIt3Wrapper_Outfile=..\build\ResourcenKopiererListmaker.exe
+
 #include <File.au3>
 
 Global $ResOrdner=FileSelectFolder("Resourcen-Ordner auswählen, dessen Modelle gelistet werden sollen","",2,"E:\Eisenbahn.exe\EEP6\Resourcen")

@@ -1,3 +1,5 @@
+#AutoIt3Wrapper_Outfile=..\build\ResourcenKopierer.exe
+
 #include <File.au3>
 
 Global $ResQuelle=FileSelectFolder("Bestehenden Resourcen-Ordner auswählen, aus dem die Dateien kopiert werden sollen","",2)
