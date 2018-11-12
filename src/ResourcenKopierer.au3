@@ -57,5 +57,5 @@ If MsgBox(4+64,"ResourcenKopierer",($arr[0]-$Fehlerzahl)&" von "&$arr[0]&" Datei
 EndIf
 
 Func CanBeLinked($filename)
-	Return Not StringRegExp($filename,"(?>EEPTree.xml|Models.db|Models.ini)\z")
+	Return Not StringRegExp($filename,"(?>EEPTree.xml|Models.db|Models.ini|3DM-Installer.ini)\z")
 EndFunc
