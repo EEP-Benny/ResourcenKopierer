@@ -12,3 +12,4 @@ XCOPY /i "build" "%releasedir%"
 explorer "%releasedir%\.."
 
 ECHO The folder %releasedir% needs to be zipped manually
+PAUSE
